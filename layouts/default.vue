@@ -7,6 +7,8 @@
       <Sidebar />
     </div>
     <main class="pb-10 md:pl-72">
+      <!-- Navbar -->
+      <Navbar />
       <slot />
     </main>
   </div>

@@ -2,6 +2,7 @@
   <div>
     <div>hello index</div>
     {{ user }}
+
     <Button>Click Here</Button>
   </div>
 </template>

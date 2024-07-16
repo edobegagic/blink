@@ -9,17 +9,18 @@ export default defineNuxtConfig({
     "@nuxtjs/supabase",
     "nuxt-icon",
   ],
-  shadcn: {
-    /**
-     * Prefix for all the imported component
-     */
-    prefix: "",
-    /**
-     * Directory that the component lives in.
-     * @default "./components/ui"
-     */
-    componentDir: "./components/ui",
-  },
+  components: [
+    {
+      path: "~/components/ui",
+      extensions: [".vue"],
+      pathPrefix: false,
+    },
+    {
+      path: "~/components",
+      extensions: [".vue"],
+      pathPrefix: false,
+    },
+  ],
   supabase: {
     redirectOptions: {
       login: "/auth" /**set login */,

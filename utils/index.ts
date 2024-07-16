@@ -36,3 +36,30 @@ export const dashboardLinks = [
     color: "text-black-400",
   },
 ];
+
+export const tools = [
+  {
+    label: "Conversation",
+    icon: "lucide:message-square",
+    link: "/conversation",
+    color: "text-black-400",
+  },
+  {
+    label: "Image",
+    icon: "lucide:image",
+    link: "/image",
+    color: "text-black-400",
+  },
+  {
+    label: "Video",
+    icon: "lucide:video",
+    link: "/video",
+    color: "text-black-400",
+  },
+  {
+    label: "Code",
+    icon: "lucide:code",
+    link: "/code",
+    color: "text-black-400",
+  },
+];
